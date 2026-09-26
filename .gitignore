@@ -1,0 +1,29 @@
+# Standard build directories
+build/
+bin/
+lib/
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Clang / IDE / tooling
+.cache/
+compile_commands.json
+.clangd/
+.idea/
+.vscode/
+
+# Testing and profiling
+Testing/
+*.gcda
+*.gcno
+*.gcov
+perf.data*
